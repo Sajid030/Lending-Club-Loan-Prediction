@@ -63,7 +63,18 @@ pip install -r requirements.txt
 This will install all the necessary packages and libraries needed to run the project.
 
 ## Deployement on Streamlit
-Click [here](https://docs.cpanel.net/knowledge-base/web-services/guide-to-git-how-to-set-up-deployment/) to see how to deploy your machine learning model on Cpanel.
+1. Create an account on Streamlit Sharing.
+2. Fork this repository to your GitHub account.
+3. Log in to Streamlit Sharing and create a new app.
+4. Connect your GitHub account to Streamlit Sharing and select this repository.
+5. Set the following configuration variables in the Streamlit Sharing dashboard:
+```
+[server]
+headless = true
+port = $PORT
+enableCORS = false
+```
+6. Click on "Deploy app" to deploy the app on Streamlit Sharing.
 
 ## Directory Tree
 
