@@ -1,5 +1,12 @@
 # 🏦 Lending Club Loan Prediction
-![Kaggle](https://img.shields.io/badge/Dataset-Kaggle-blue.svg) ![Python 3.10](https://img.shields.io/badge/Python-3.10.10-blueviolet.svg) ![scikit-learnn](https://img.shields.io/badge/Library-Scikit_Learn-orange.svg) ![tensorflow](https://img.shields.io/badge/Tensorflow-2.12.0-important.svg)
+[![Kaggle](https://img.shields.io/badge/-Kaggle-blue?logo=kaggle)](https://www.kaggle.com/)
+[![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![Keras Tuner](https://img.shields.io/badge/-Keras%20Tuner-FF6F00?logo=keras&logoColor=white)](https://keras-team.github.io/keras-tuner/)
+[![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
+[![imblearn](https://img.shields.io/badge/-imblearn-F1C40F)](https://imbalanced-learn.org/stable/)
+[![scikit-learn](https://img.shields.io/badge/-scikit--learn-F7931E?logo=scikit-learn&logoColor=white)](https://scikit-learn.org/stable/)
+[![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B)](https://www.streamlit.io/)
+
 
 ## Table of Contents
 
@@ -23,7 +30,7 @@ Note: If the website link provided above is not working, it might mean that the 
 
 ## Overview
 
-Welcome to the Loan Status Prediction app! This app utilizes deep learning to predict the loan status of an applicant, whether it's "Fully Paid" or "Charged Off".
+Welcome to the Loan Status Prediction app using Streamlit! This app utilizes deep learning to predict the loan status of an applicant, whether it's "Fully Paid" or "Charged Off".
 - **Fully paid:** The applicant has successfully paid back the loan amount along with the interest rate within the given time frame.
 - **Charged-off:** The applicant has not paid the instalments on time for an extended period, resulting in a loan default.
 
