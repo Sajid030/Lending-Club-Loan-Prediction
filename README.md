@@ -27,6 +27,7 @@
 Note: If the website link provided above is not working, it might mean that the deployment has been stopped or there are technical issues. We apologize for any inconvenience.
 - Please consider giving a ⭐ to the repository if you find this app useful.
 - A quick preview of the loan prediction app:
+
 ![GIF](resource/loanprediction.gif)
 
 ## Overview
