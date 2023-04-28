@@ -73,7 +73,7 @@ with content:
       st.title('Loan Details')
       st.write('Enter Loan details here.')
       
-      loan_amnt = st.number_input('Loan Amount', min_value=0, step=1000)
+      loan_amnt = st.number_input('Loan Amount (in $)', min_value=0, step=1000)
       term = st.selectbox('Term', [36,60])
       int_rate = st.number_input('Interest Rate', min_value=0.0, step=5.0, format="%.2f")
       installment = st.number_input('Monthly Payment', min_value=0.0, step=50.0, format="%.2f")
