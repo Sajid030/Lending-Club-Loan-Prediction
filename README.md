@@ -22,7 +22,8 @@
  - [Credits](#credits)
 
 ## Demo
-- Link: Coming soon
+- Link: https://sajid030-lending-club-loan-prediction-app-428myv.streamlit.app/
+
 Note: If the website link provided above is not working, it might mean that the deployment has been stopped or there are technical issues. We apologize for any inconvenience.
 - Please consider giving a ⭐ to the repository if you find this app useful.
 - A quick preview of the loan prediction app:
