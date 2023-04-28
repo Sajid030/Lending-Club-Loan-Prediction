@@ -29,6 +29,8 @@ Welcome to the Loan Status Prediction app! This app utilizes deep learning to pr
 
 To use this app, simply fill out the required loan and borrower details, and let the model make the prediction for you. Our app's predictive capabilities are powered by deep learning, allowing for more accurate and reliable results.
 
+*Dataset link is provided in the Credits section*
+
 ## About the Dataset
 LendingClub is a US peer-to-peer lending company, headquartered in San Francisco, California. It was the first peer-to-peer lender to register its offerings as securities with the Securities and Exchange Commission (SEC), and to offer loan trading on a secondary market. LendingClub is the world’s largest peer-to-peer lending platform.
 
@@ -58,8 +60,6 @@ Click [here](https://docs.cpanel.net/knowledge-base/web-services/guide-to-git-ho
 ## Directory Tree
 
 ```
-├── dataset 
-│   ├── loan.csv
 ├── model
 │   ├── dataset.pkl
 │   ├── my_model.h5
