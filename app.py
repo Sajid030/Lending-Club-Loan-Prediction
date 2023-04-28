@@ -425,12 +425,12 @@ if st.button('Predict'):
       purpose_vacation=0
       purpose_wedding=0
     
-    query = np.array([[loan_amnt,	term,	int_rate,	installment,	grade,	sub_grade,	emp_length,	annual_inc,	dti,	delinq_2yrs,
-              inq_last_6mths,	open_acc,	pub_rec,	revol_bal,	revol_util,	total_acc,	last_pymnt_amnt, home_ownership_MORTGAGE,
-              home_ownership_NONE,	home_ownership_OTHER,	home_ownership_OWN,	home_ownership_RENT, verification_status_Source_Verified,
-              verification_status_Verified,	purpose_credit_card,	purpose_debt_consolidation, purpose_educational,
-              purpose_home_improvement,	purpose_house,	purpose_major_purchase,	purpose_medical,	purpose_moving,
-              purpose_other,	purpose_renewable_energy,	purpose_small_business,	purpose_vacation,	purpose_wedding]])
+    query = np.array([[loan_amnt, term, int_rate, installment, grade, sub_grade, emp_length, annual_inc, dti, delinq_2yrs,
+              inq_last_6mths, open_acc,	pub_rec, revol_bal,	revol_util,	total_acc, last_pymnt_amnt, home_ownership_MORTGAGE,
+              home_ownership_NONE,	home_ownership_OTHER, home_ownership_OWN, home_ownership_RENT, verification_status_Source_Verified,
+              verification_status_Verified,	purpose_credit_card, purpose_debt_consolidation, purpose_educational,
+              purpose_home_improvement,	purpose_house, purpose_major_purchase, purpose_medical,	purpose_moving,
+              purpose_other, purpose_renewable_energy, purpose_small_business, purpose_vacation, purpose_wedding]])
     query = query.reshape(1,37)
     
     prediction=int(model.predict(query)[0])
